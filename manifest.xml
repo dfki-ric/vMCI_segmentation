@@ -1,0 +1,36 @@
+<package>
+  <description brief="vMCI Segmentation (Segmentation of human movement based on hand velocity)">
+    Implementation of the velocity-based Multiple Change-point Inference (vMCI) algorithm 
+	to segment human manipulation movement into movement building blocks based on the velocity
+	of the hand.  
+  </description>
+  <author>Lisa Gutzeit/lisa.gutzeit@uni-bremen.de</author>
+  <maintainer>Lisa Gutzeit/lisa.gutzeit@uni-bremen.de</maintainer>
+  <license>none</license>
+  <url>https://git.hb.dfki.de/team-learning/vMCI_segmentation</url>
+  <logo>...</logo>
+
+  <keywords>
+    <keyword>Learning</keyword> <!--kw1 currently used as Category in Software Catalog -->
+    <keyword>Segmentation</keyword>
+    <keyword>ImitationLearning</keyword>
+  </keywords>
+
+  <stage>-1</stage>
+  <!--use>single project</use> -->
+  <use>multi project</use>
+  <!-- <use>external</use> -->
+  <activity>active</activity>
+  <!-- <activity>pending</activity> -->
+  <!-- <activity>discontinued</activity> -->
+  <classifiers> <!--optional -->
+    <!-- The idea of "classifiers" is to provide additional meta data about the software,
+         for example, which programming language has been used, what is the target platform,
+         is it compatible with any robotic middleware. The idea is similar to classifiers
+         in the Python package index (https://packaging.python.org/tutorials/distributing-packages/#classifiers)
+         but we don't have a predefined list of allowed classifiers. -->
+    <classifier>python</classifier>
+    <classifier>windows</classifier>
+    <classifier>ubuntu</classifier>
+  </classifiers>
+</package>
